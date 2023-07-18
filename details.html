@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: #d0c9b4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            color: white;
+            min-width: 599px;
+            background-image: url(./check.jpg);
+            /* background-size: cover; */
+        }
+
+        a{
+            text-decoration: none;
+            cursor: pointer;
+            color: white;
+        }
+
+        a.aLink:hover{
+            text-decoration:double;
+        }
+
+        #main{
+            width: 100%;
+            position: relative;
+            z-index: 100;
+        }
+
+        .wrap{
+            width: 599px;
+            margin: auto;
+        }
+
+        #header{
+            padding: 70px 0;
+        }
+
+        #header h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-size: 18px;
+            position: relative;
+            width: 280px;
+            margin: auto;
+        }
+
+        #header h1::before{
+            content: "";
+            width: 40px;
+            height: 2px;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            left: 0%;
+        }
+
+        #header h1::after{
+            content: "";
+            width: 40px;
+            height: 2px;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            right: 0%;
+        }
+
+        #contents{
+            text-align: center;
+            color: white;
+            padding-bottom: 35px;
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: normal;
+            margin-top: -50px;
+        }
+
+        #contents h2{
+            font-size: 80px;
+            line-height: 80px;
+            font-weight: 500;
+        }
+
+        #contents .loader{
+            padding: 20px 0;
+        }
+
+        #contents .loader .load{
+            background-color: #313031;
+        }
+
+        #contents .loader .load .percentage{
+            background-color: white;
+            height: 10px;
+        }
+
+        #contents .loader .info{
+            display: flex;
+            font-size: 18px;
+        }
+
+        #contents .loader .info span{
+            flex: 1;
+        }
+
+        #contents .loader .info span:first-child{
+            text-align: left;
+        }
+
+        #contents .loader .info span:last-child{
+            text-align: right;
+        }
+
+        #footer{
+            text-align: center;
+            padding-bottom: 80px;
+        }
+
+        #footer .social-links{
+            display: flex;
+            justify-content: center;
+        }
+
+        #footer .social-links a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 5px;
+            width: 40px;
+            height: 40px;
+            border: 2px solid white;
+            font-size: 20px;
+            border-radius: 40%;
+        }
+
+    </style>
+    <body>
+    <div id = "main">
+       <header id ="header">
+        <div class="wrap">
+            <h1>Lioncrest Ventures</h1>
+        </div>
+       </header> 
+       <section id="contents">
+        <div class="wrap">
+            <h2> Your pioneer in the world of investing</h2>
+        </div>
+       </section>
+       <footer id="footer">
+        <div class="wrap">
+            <div class="social-links">
+                <a href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
+                <a href="javascript:void(0);"><i class="fa fa-instagram"></i></a>
+                <a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                <a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a>
+
+            </div>
+        </div>
+       </footer>
+    </div>
+
+</body>
+</html>
